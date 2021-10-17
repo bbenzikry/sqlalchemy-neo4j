@@ -1,0 +1,21 @@
+{
+    "python.pythonPath": ".venv/bin/python",
+    "python.formatting.provider": "black",
+    "search.useIgnoreFiles": false,
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": false
+        },
+        "editor.formatOnSave": true,
+    },
+    "python.linting.banditEnabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pycodestyleEnabled": false,
+    "python.linting.pydocstyleEnabled": true,
+    "python.linting.enabled": true,
+    "python.sortImports.args": [
+        "-sp isort.cfg"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.languageServer": "Pylance",
+}

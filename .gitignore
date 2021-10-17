@@ -1,0 +1,12 @@
+/.eggs/
+/.idea/
+/build/
+/dist/
+/test/__pycache__/
+/sqlalchemy_jdbcapi/__pycache__/
+/sqlalchemy_jdbcapi.egg-info/
+/.venv/
+/*.egg*/
+.env
+/.jars/*
+!/.jars/.gitkeep

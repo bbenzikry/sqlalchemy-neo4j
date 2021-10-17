@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "sqlalchemy-neo4j"
+version = "0.1.dev"
+description = "SQL Alchemy dialect for Neo4j"
+authors = ["Beni Ben Zikry"]
+readme="README.md"
+homepage="https://github.com/bbenzikry/sqlalchemy-neo4j"
+keywords=["neo4j", "sqlalchemy", "graph","database"]
+classifiers = [
+        "Development Status :: 2 - Pre-Alpha",
+        "Intended Audience :: Developers",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: Implementation :: CPython",
+        "Topic :: Database :: Front-Ends",
+        "Operating System :: OS Independent",
+]
+[tool.poetry.dependencies]
+sqlalchemy = {version=">=1.0,<1.4"}
+jpype = {version="*", optional=true}
+jaydebeapi={version="*", optional=true}
+
+python = ">=3.6.2,<4.0.0"
+
+[tool.poetry.dev-dependencies]
+ptpython = "^3.0.20"
+black = {version = "^21.9b0", allow-prereleases = true}
+pydocstyle = "^6.1.1"
+pycodestyle = "^2.8.0"
+pylint = "^2.11.1"
+bandit = "^1.7.0"
+[tool.black]
+line-length = 88
+target-version = ['py39']
+exclude = '''
+    /(
+        \.git
+      | \.hg
+      | \.mypy_cache
+      | \.tox
+      | \.venv
+      | \.envrc
+      | _build
+      | buck-out
+      | build
+      | dist
+
+      # The following are specific to Black, you probably don't want those.
+      | blib2to3
+      | tests/data
+      | MANIFEST.in
+      | LICENSE
+      | AUTHORS
+      | setup.cfg:
+      | project.toml
+    )/
+    '''
