@@ -42,7 +42,4 @@ See more [examples](./examples/)
 ## Future
 - Add Cypher support
 - Add support for Cypher views in JDBC driver
-
-
-
-
+- Add ORM support and testing

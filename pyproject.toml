@@ -17,7 +17,7 @@ classifiers = [
 ]
 [tool.poetry.dependencies]
 sqlalchemy = {version=">=1.0,<1.4"}
-jpype = {version="*", optional=true}
+jpype1 = {version="*", optional=true}
 jaydebeapi={version="*", optional=true}
 
 python = ">=3.6.2,<4.0.0"
