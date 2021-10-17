@@ -60,11 +60,8 @@ class JDBCDialect(DefaultDialect):
             jpype.JClass(self.jdbc_driver_name)
         except TypeError:
             err = (
-                "The `%s` JDBC driver class was not located in the CLASSPATH `%s`"
-                % (
-                    str(self.jdbc_driver_name),
-                    str(jpype.java.lang.System.getProperty("java.class.path")),
-                ),
+                "The `%s` JDBC driver class was not located in the java class path"
+                % (str(self.jdbc_driver_name),),
             )
             raise Exception(err)
 

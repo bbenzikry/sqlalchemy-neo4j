@@ -86,8 +86,12 @@ class Neo4jDialect_jdbc(JDBCDialect):
         if url is None:
             return
         if "PWD" not in url.query:
-            util.warn("Password not supplied to neojdbc")
-            return
+            raise Exception(
+                """
+                Password not supplied to neo4j dialect.
+                Make sure all parameters are properly escape.
+                """
+            )
         jdbc_url = parse_jdbc_url(url)
         self.db = url.database
 
