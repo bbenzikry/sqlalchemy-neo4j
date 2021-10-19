@@ -37,7 +37,6 @@ See more [examples](./examples/)
 
 ## Related projects
 * [Neo4j Metabase Driver](https://github.com/bbenzikry/metabase-neo4j-driver) - Use Neo4j with Metabase. Use both SQL and Cypher ( the driver uses the same underlying BI connector for SQL queries )
-* [Superset Neo4j Support ( WIP )]() - based on this dialect
 
 ## Future
 - Add Cypher support
