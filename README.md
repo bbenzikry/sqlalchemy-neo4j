@@ -18,8 +18,7 @@ pip install sqlalchemy-neo4j
 ## Getting started 
 ```python
 
-from sqlalchemy import create_engine
-from 
+from sqlalchemy import create_engine 
 
 # This happens automatically if you set the NEOJDBC_WARMUP environment variable
 jpype.startJVM()
