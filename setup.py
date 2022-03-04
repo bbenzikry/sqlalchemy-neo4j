@@ -36,7 +36,7 @@ setup(
     include_package_data=True,
     extras_require=dict(
         neo4j=["neo4j>=4.0.0"],
-        jdbc=["JPype1", "JayDeBeApi"],
+        jdbc=["JPype1==1.3.0", "JayDeBeApi==1.2.3"],
     ),
     zip_safe=False,
     keywords="SQLAlchemy Neo4j Dialect",
