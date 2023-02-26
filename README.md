@@ -41,3 +41,14 @@ See more [examples](./examples/)
 - Add Cypher support
 - Add support for Cypher views in JDBC driver
 - Add ORM support and testing
+
+
+## Donations ##
+
+<div align="center">
+Did this project help you out? 
+<p>
+<a href="https://etherscan.io/address/0x10c97e3e727cb3ee0bafb4f99f63225525150a35">bbenzikry.eth / 0x10c97e3e727cb3ee0bafb4f99f63225525150a35</a>
+</p>
+<img src="https://user-images.githubusercontent.com/1993348/221440410-bec29828-dbf8-4908-aa18-dc41e70592bb.png" width="200" />
+</div>
